@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Paragrafo from './Paragrafo'
+import CaixaTexto from './CaixaTexto'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <h1>Comece!</h1>
         </div>
         
+        <CaixaTexto />
         <Paragrafo nome="Fulano"/>
         <Paragrafo nome="Beltrano"/>
       </section>
