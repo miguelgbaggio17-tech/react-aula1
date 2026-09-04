@@ -1,0 +1,25 @@
+
+
+.dark {
+    background-color: #121121;
+    color: #ffffff;
+}
+
+
+button.dark {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+#divNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
