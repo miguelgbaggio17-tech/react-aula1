@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
 
 .dark {
     background-color: #121121;
@@ -12,14 +17,23 @@ button.dark {
 }
 
 #divNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-ul {
+#divNav ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button input {
+    padding: 10px;
+    cursor: pointer
+
 }
