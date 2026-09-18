@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Usuarios from './pages/Usuarios'
 import AppTarefas from './pages/Tarefas/AppTarefas'
+import UsuarioDetalhe from './pages/UsuarioDetalhe'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             <Route path='/tarefas' element={<AppTarefas />}/>
             <Route path='/usuarios' element={<Usuarios />}/>
             <Route path='/sobre' element={<Sobre />}/>
+
+            <Route path='/usuarios/:id' element={<UsuarioDetalhe />}/>
           </Routes>
         </div>
 
